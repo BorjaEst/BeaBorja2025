@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-body {
-  margin-left: 200px;
-  background: #5d9ab2 url("img_tree.png") no-repeat top left;
-}
-
-.center_div {
-  border: 1px solid gray;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  background-color: #d0f0f6;
-  text-align: left;
-  padding: 8px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Wedding</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header class="hero-section">
+    <h1>We're Getting Married!</h1>
+    <p>Join us on our special day</p>
+  </header>
 
-<div class="center_div">
-  <h1>Hello World!</h1>
-  <p>This example contains some advanced CSS methods you may not have learned yet. But, we will explain these methods in a later chapter in the tutorial.</p>
-</div>
+  <section class="intro-section">
+    <h2>About Us</h2>
+    <p>We are so excited to celebrate our love with you. Here’s a little about our journey together...</p>
+  </section>
 
+  <section class="details-section">
+    <h2>Event Details</h2>
+    <p><strong>Date:</strong> June 15, 2025</p>
+    <p><strong>Time:</strong> 3:00 PM</p>
+    <p><strong>Location:</strong> Sunset Gardens, Palm Springs</p>
+  </section>
+
+  <section class="rsvp-section">
+    <h2>RSVP</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="gallery-section">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Our first date">
+      <img src="image2.jpg" alt="Engagement day">
+      <img src="image3.jpg" alt="Vacation together">
+      <img src="image4.jpg" alt="Family event">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Thank you for celebrating with us! Love, [Your Names]</p>
+  </footer>
 </body>
+
 </html>
